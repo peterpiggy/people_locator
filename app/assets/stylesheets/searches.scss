@@ -44,6 +44,7 @@ $dodgerblue: #104E8B;
 	border: none;
 	outline: none;
 	border: 3px solid black;
+	padding: 0 10px;
 }
 
 .find_people input[type=submit] {
@@ -59,7 +60,7 @@ $dodgerblue: #104E8B;
 }
 
 .socials {
-	margin: 10px 0 0 10px;
+	margin: 10px 0 10px 10px;
 	display: none;
 }
 
@@ -76,4 +77,57 @@ $dodgerblue: #104E8B;
 .search_parameters {
 	width: 130px;
 	display: block;
+}
+
+.search_results {
+	display: none;
+
+	& h1 {
+		font-size: 1.5em;
+		margin: 10px 0 0 0;
+	}
+}
+
+.search_result {
+	border: 2px solid black;
+	height: 200px;
+	margin: 10px 0;
+
+	.network_icon {
+		outline: 1px solid red;
+		position: absolute;
+		margin-left: -200px;
+	}
+}
+
+.result_info {
+	display: inline-block;
+	position: absolute;
+	margin: 10px 0 0 10px;
+
+	.name {
+		font-size: 1.5em;
+		margin: 0 0 20px 0;
+	}
+
+	p {
+		margin: 0 0 4px 0;
+	}
+
+	.result_links {
+		margin: 50px 0 0 0;
+
+		a {
+			background-color: $dodgerblue;
+			padding: 15px;
+			margin: 0 10px 0 0;
+			border-radius: 5px;
+			border: none;
+			bottom: 0;
+
+			&:hover {
+				background-color: lighten($dodgerblue, 10)
+			}
+		}
+	}
 }

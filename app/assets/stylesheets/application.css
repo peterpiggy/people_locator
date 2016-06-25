@@ -59,6 +59,11 @@ table {
 
 /* end of reset */
 
+::selection {
+  background: white;
+  color: #104E8B; /* dodger blue */
+}
+
 html {
   height: 100%;
 }

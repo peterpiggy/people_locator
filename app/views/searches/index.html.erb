@@ -1,7 +1,7 @@
 <h1 class="main_title">Найди друзей, где бы они не прятались!</h1>
 <p>Введи имя или ник друга и найди его сразу во всех соцсетях</p>
 <form class="find_people" action=""> <!-- simple form -->
-	<input type="text" placeholder="Вася Пупкин" autofocus="autofocus">
+	<input type="text" placeholder="Вася Пупкин" autofocus="autofocus" maxlength=30>
 	<input type="submit" value=""> <!-- по нажатию enter -->
 	<a class="search_parameters js-search_parameters" href="#">Парамтеры поиска</a>
 	<div class="socials js-socials"> <!-- static -->
@@ -87,3 +87,46 @@
 		</div>
 	</div>
 </form>
+
+<div class="search_results">
+	<h1>Результаты поиска:</h1>
+	<div class="search_result">
+		<img src="http://placehold.it/200x200" alt="avatar">
+		<img class="network_icon" src="http://placehold.it/20x20" alt="social network">
+		<div class="result_info">
+			<p class="name">Вася Пупкин</p>
+			<p class="age">21 год</p>
+			<p class="location">Волгоград, Россия</p>
+			<div class="result_links">
+				<a href="#">Смотреть профиль</a>
+				<a href="#">Добавить в друзья</a>
+			</div>
+		</div>
+	</div>
+	<div class="search_result">
+		<img src="http://placehold.it/200x200" alt="avatar">
+		<img class="network_icon" src="http://placehold.it/20x20" alt="social network">
+		<div class="result_info">
+			<p class="name">Вася Пупкин</p>
+			<p class="age">21 год</p>
+			<p class="location">Волгоград, Россия</p>
+			<div class="result_links">
+				<a href="#">Смотреть профиль</a>
+				<a href="#">Добавить в друзья</a>
+			</div>
+		</div>
+	</div>
+	<div class="search_result">
+		<img src="http://placehold.it/200x200" alt="avatar">
+		<img class="network_icon" src="http://placehold.it/20x20" alt="social network">
+		<div class="result_info">
+			<p class="name">Вася Пупкин</p>
+			<p class="age">21 год</p>
+			<p class="location">Волгоград, Россия</p>
+			<div class="result_links">
+				<a href="#">Смотреть профиль</a>
+				<a href="#">Добавить в друзья</a>
+			</div>
+		</div>
+	</div>
+</div>
