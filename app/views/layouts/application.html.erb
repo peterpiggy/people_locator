@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PeopleLocator</title>
+  <title>People Locator</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<header>
+		<h1 class="header_title">People Locator</h1>
+	</header>
+	<div class="content">
+		<section class="main_section">
+			<%= yield %>
+		</section>
+		<aside class="banner">
+			banner
+		</aside>
+	</div>
+	<footer>
+		<div class="footer_links">
+			<a href="#">О проекте</a>
+			<a href="#">Обратная связь</a>
+		</div>
+		<div class="copyright">&copy; People Loccator 2016</div>
+	</footer>
 </body>
 </html>

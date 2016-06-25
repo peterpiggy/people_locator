@@ -1,25 +1,7 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Searches</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @searches.each do |search| %>
-      <tr>
-        <td><%= link_to 'Show', search %></td>
-        <td><%= link_to 'Edit', edit_search_path(search) %></td>
-        <td><%= link_to 'Destroy', search, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Search', new_search_path %>
+<h1 class="main_title">Найди друзей, где бы они не прятались!</h1>
+<p>Введи имя или ник друга и найди его сразу во всех соцсетях</p>
+<form class="find_people" action="">
+  <input type="text" placeholder="Вася Пупкин" autofocus="autofocus">
+  <input type="submit" value="">
+</form>
+<a href="#">Парамтеры поиска</a>

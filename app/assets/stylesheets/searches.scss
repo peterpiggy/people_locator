@@ -1,3 +1,59 @@
 // Place all the styles related to the Searches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$dodgerblue: #104E8B;
+
+.content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.main_section a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dashed white;
+}
+
+.main_section a:hover {
+  border-bottom: none;
+}
+
+.main_title {
+	font-size: 3em;
+	padding: 10px 0;
+}
+
+.find_people input[type=text] {
+	width: 700px;
+	height: 50px;
+	font-size: 2.5em;
+	margin: 5px 0;
+	color: $dodgerblue;
+	border: none;
+	outline: none;
+	border: 3px solid black;
+}
+
+.find_people input[type=submit] {
+	width: 52px;
+	height: 52px;
+	border: none;
+	background-color: $dodgerblue;
+	background-image: url("find_icon.png");
+	background-repeat: no-repeat;
+	margin: 8px 0 0 -55px;
+	cursor: pointer;
+	position: absolute;
+}
+
+.banner {
+  height: 500px;
+  width: 200px;
+  outline: 1px solid red;
+}
