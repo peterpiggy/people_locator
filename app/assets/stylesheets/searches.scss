@@ -3,6 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $dodgerblue: #104E8B;
 
+.banner {
+  height: 500px;
+  min-width: 200px;
+  outline: 1px solid red;
+}
+
 .content {
   display: -webkit-flex;
   display: -moz-flex;
@@ -21,7 +27,7 @@ $dodgerblue: #104E8B;
 }
 
 .main_section a:hover {
-  border-bottom: none;
+  border-color: transparent;
 }
 
 .main_title {
@@ -52,8 +58,22 @@ $dodgerblue: #104E8B;
 	position: absolute;
 }
 
-.banner {
-  height: 500px;
-  width: 200px;
-  outline: 1px solid red;
+.socials {
+	margin: 10px 0 0 10px;
+	display: none;
+}
+
+.social label {
+	cursor: pointer;
+}
+
+.social_soon {
+	color: black;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.search_parameters {
+	width: 130px;
+	display: block;
 }

@@ -15,15 +15,22 @@
 			<%= yield %>
 		</section>
 		<aside class="banner">
-			banner
+			banner <!-- static -->
 		</aside>
 	</div>
 	<footer>
 		<div class="footer_links">
-			<a href="#">О проекте</a>
-			<a href="#">Обратная связь</a>
+			<a href="#">О проекте</a> <!-- static -->
+			<a href="#">Обратная связь</a> <!-- static -->
 		</div>
-		<div class="copyright">&copy; People Loccator 2016</div>
+		<div class="copyright">&copy; People Locator <%= 
+			current_year = Time.now.year
+			if (current_year > 2016)
+				'2016 - ' + current_year.to_s
+			else
+				current_year
+			end
+		%></div> 
 	</footer>
 </body>
 </html>

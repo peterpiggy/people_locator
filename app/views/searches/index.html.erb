@@ -1,7 +1,89 @@
 <h1 class="main_title">Найди друзей, где бы они не прятались!</h1>
 <p>Введи имя или ник друга и найди его сразу во всех соцсетях</p>
-<form class="find_people" action="">
-  <input type="text" placeholder="Вася Пупкин" autofocus="autofocus">
-  <input type="submit" value="">
+<form class="find_people" action=""> <!-- simple form -->
+	<input type="text" placeholder="Вася Пупкин" autofocus="autofocus">
+	<input type="submit" value=""> <!-- по нажатию enter -->
+	<a class="search_parameters js-search_parameters" href="#">Парамтеры поиска</a>
+	<div class="socials js-socials"> <!-- static -->
+		<p>Искать в:</p>
+		<!-- больше 100 млн. -->
+		<div class="social">
+			<input type="checkbox" id="ch2" checked="checked">
+			<label for="ch2">Facebook</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">WhatsApp</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch10" checked="checked">
+			<label for="ch10">Instagram</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch3" checked="checked">
+			<label for="ch3">Twitter</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch1" checked="checked">
+			<label for="ch1">ВКонтакте</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Skype</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Viber</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Google+</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">LinkedIn</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch4" checked="checked">
+			<label for="ch4">Одноклассники</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Snapchat</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Printerest</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Telegram</label>
+		</div>
+		<div class="social">
+			<input type="checkbox" id="ch6" checked="checked">
+			<label for="ch6">Tumblr</label>
+		</div>
+		<!-- меньше 100 млн. -->
+		<div class="social social_soon">
+			<input type="checkbox" id="ch5" disabled="disabled">
+			<label for="ch5">Мой мир (скоро)</label>
+		</div>
+		
+		<div class="social social_soon">
+			<input type="checkbox" id="ch7" disabled="disabled">
+			<label for="ch7">Ask.fm (скоро)</label>
+		</div>
+		<div class="social social_soon">
+			<input type="checkbox" id="ch8" disabled="disabled">
+			<label for="ch8">Badoo (скоро)</label>
+		</div>
+		<div class="social social_soon">
+			<input type="checkbox" id="ch9" disabled="disabled">
+			<label for="ch9">Flickr (скоро)</label>
+		</div>
+		<div class="social social_soon">
+			<input type="checkbox" id="ch6" disabled="disabled">
+			<label for="ch6">LiveJournal (скоро)</label>
+		</div>
+	</div>
 </form>
-<a href="#">Парамтеры поиска</a>

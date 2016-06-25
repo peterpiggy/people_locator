@@ -113,6 +113,7 @@ footer {
 
 .footer_links a {
   color: white;
+  margin-right: 10px;
 }
 
 .footer_links a:hover {
